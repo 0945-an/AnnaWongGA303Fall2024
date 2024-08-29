@@ -7,11 +7,14 @@ public class Week1Script3: MonoBehaviour
 {
     // Start is called before the first frame update
 
-    public string beginningString = "Once upon a time, there was an ugly barnacle, ";
-    public string middleString = "he was so ugly that everyone died, ";
-    public string endingString = "The end.";
+    public string beginningString;
+    public string middleString;
+    public string endingString;
     void Start()
     {
+        beginningString = "Once upon a time, there was an ugly barnacle, ";
+        middleString = "he was so ugly that everyone died, ";
+        endingString = "The end.";
         Debug.Log(beginningString + middleString + endingString);
     }
 

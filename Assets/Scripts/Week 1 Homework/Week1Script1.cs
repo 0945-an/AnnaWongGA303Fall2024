@@ -21,7 +21,7 @@ public class Week1Script1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log(rabbit + dragon + tiger + dragon + pig + dog);
+        Debug.Log(rabbit + ""+ dragon + tiger + dragon + pig + dog);
     }
 
     // Update is called once per frame
