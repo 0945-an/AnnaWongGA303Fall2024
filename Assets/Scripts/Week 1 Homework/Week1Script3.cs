@@ -18,6 +18,13 @@ public class Week1Script3: MonoBehaviour
         Debug.Log(beginningString + middleString + endingString);
     }
 
+    public void Function(string s1, string s2, string s3)
+    {
+        beginningString = s1;
+        middleString = s2;
+        endingString = s3;
+        Debug.Log(beginningString + middleString + endingString);
+    }
     // Update is called once per frame
     void Update()
     {
