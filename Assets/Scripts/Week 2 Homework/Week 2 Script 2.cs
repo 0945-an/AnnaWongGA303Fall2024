@@ -12,6 +12,8 @@ public class Week2Script2 : MonoBehaviour
     public GameObject cube;
     public bool toggleCube;
 
+    
+
     void Start()
     {
         sphere.SetActive(false);
